@@ -1,0 +1,124 @@
+{
+  "schoolName": "Sunnydale Elementary School",
+  "attendancePolicy": {
+    "schoolHours": "8:30 AM – 3:00 PM",
+    "tardyTime": "8:30 AM",
+    "excusedAbsences": [
+      "Illness",
+      "Medical appointments",
+      "Family emergencies",
+      "Religious holidays"
+    ],
+    "notificationDeadline": "Before 9:00 AM on the day of absence",
+    "doctorNoteRequiredAfterDays": 3,
+    "excessiveAbsenceThreshold": "More than 10 days per semester"
+  },
+  "reportAbsences": {
+    "phone": {
+      "attendanceLine": "(555) 234-7781",
+      "availability": "24/7 voicemail"
+    },
+    "email": {
+      "address": "attendance@sunnydale-school.edu",
+      "requiredInfo": [
+        "Student full name",
+        "Grade/Teacher",
+        "Date(s) of absence",
+        "Reason for absence"
+      ]
+    },
+    "parentPortal": {
+      "instructions": "Log in to the Sunnydale Parent Portal and select Attendance → Report Absence",
+      "link": "https://parents.sunnydale-school.edu"
+    }
+  },
+  "earlyPickupProcedures": {
+    "latestPickupTime": "2:30 PM",
+    "requirements": [
+      "Parent/guardian must sign student out in the front office",
+      "Only individuals on the authorized pickup list may check the student out",
+      "Valid photo ID is required",
+      "Office staff will call the student from the classroom"
+    ],
+    "advanceNotice": "Recommended for planned early pickups (via note or email)"
+  },
+  "bellSchedules": {
+    "regularDay": {
+      "start": "8:30 AM",
+      "tardyBell": "8:35 AM",
+      "lunch": "11:30 AM – 12:30 PM",
+      "dismissal": "3:00 PM"
+    },
+    "minimumDay": {
+      "start": "8:30 AM",
+      "dismissal": "1:00 PM"
+    },
+    "twoHourDelay": {
+      "start": "10:30 AM",
+      "dismissal": "3:00 PM"
+    }
+  },
+  "contactInfo": {
+    "address": "123 Oakridge Drive, Sunnydale, CA 90001",
+    "mainOffice": "(555) 234-1100",
+    "attendanceLine": "(555) 234-7781",
+    "nurseOffice": "(555) 234-5522",
+    "emails": {
+      "frontOffice": "office@sunnydale-school.edu",
+      "principal": "principal@sunnydale-school.edu"
+    },
+    "officeHours": "7:45 AM – 4:00 PM"
+  },
+  "formsAndLinks": {
+    "forms": {
+      "absenceReportForm": "https://sunnydale-school.edu/forms/absence-form.pdf",
+      "earlyPickupRequest": "https://sunnydale-school.edu/forms/early-pickup.pdf",
+      "medicationAuthorization": "https://sunnydale-school.edu/forms/medication.pdf",
+      "parentHandbook": "https://sunnydale-school.edu/forms/handbook.pdf",
+      "volunteerApplication": "https://sunnydale-school.edu/forms/volunteer.pdf"
+    },
+    "links": {
+      "parentPortal": "https://parents.sunnydale-school.edu",
+      "lunchMenu": "https://sunnydale-school.edu/lunch-menu",
+      "busSchedules": "https://sunnydale-school.edu/transportation"
+    }
+  },
+  "healthGuidelines": {
+    "illness": [
+      "Fever over 100.4°F (must be fever-free for 24 hours without medication)",
+      "Vomiting or diarrhea in the past 24 hours",
+      "Persistent cough, rash, or contagious illness"
+    ],
+    "medications": [
+      "All medications must be stored in the Nurse's Office",
+      "Medication Authorization Form required (doctor + parent)"
+    ],
+    "covidFlu": [
+      "Stay home until symptoms improve",
+      "COVID testing recommended but not required"
+    ],
+    "allergies": [
+      "Peanut-aware campus",
+      "Notify nurse of any severe allergies"
+    ]
+  },
+  "schoolHandbook": {
+    "summary": {
+      "missionStatement": "To inspire lifelong learning and a supportive community environment.",
+      "sections": [
+        "Academic expectations",
+        "Attendance and tardy policies",
+        "Dress code",
+        "Technology use rules",
+        "Behavior expectations and discipline",
+        "Bullying prevention",
+        "Cafeteria rules",
+        "Emergency procedures",
+        "Parent communication channels",
+        "Transportation procedures"
+      ]
+    },
+    "fullHandbookLink": "https://sunnydale-school.edu/forms/handbook.pdf"
+  }
+}
+

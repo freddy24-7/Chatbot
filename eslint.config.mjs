@@ -18,6 +18,7 @@ const eslintConfig = [
   // Custom Prettier integration
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
+    ignores: ['**/.next/**', '**/node_modules/**'],
     plugins: {
       prettier: prettierPlugin,
     },
